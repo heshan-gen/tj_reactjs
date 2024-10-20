@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Noto Sans Display", sans-serif !important;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 84px;
+}
+
+p, span {
+  font-family: "Noto Sans Display", sans-serif !important;
+  font-size: 12px !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, strong, b {
+  font-family: "Noto Sans Display", sans-serif !important;
+  font-size: 12px;
+}
+
+header {
+  background: #FFFFFF !important;  
+  font-family: "Noto Sans Display", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 84px;
+}
+
+.mainWrapperInner {
+  margin-top: 0;
+  /* height: calc(100vh - 155px); */
+}
+
+header img {
+  border-radius: 10px;
+}
+
+.btn-comm, .btn-comm-main {
+  text-transform: capitalize !important;
+  color: #000;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: normal;
+}
+
+.btn-comm-main {
+  margin: 0 5px;
+}
+
+.btn-comm-main:first-child {
+  background: #580000;
+  color: white !important;
+}
+
+.btn-comm-main:nth-child(2) {
+  background: #f0be28;
+  color: black !important;
+}
+
+.btn-comm-right {
+  color: #000;
+  background: #f0be28 !important;
+  border-radius: 5px !important;
+}
+
+.brandttl {
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.brandttl span {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  position: relative;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.image-slider-container {
+  margin: 0 auto;
+  width: 427px;
+  height: 61px;
+}
+
+.image-slider-container-rmargin {
+  margin: 0 auto;
+  width: 161px;
+  height: auto;
+  position: sticky;
+  top: 0;
+  border-radius: 8px;
+}
+
+.image-slider-container-rmargin img {
+  border-radius: 5px;
+}
+
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+  color: black;
+}
+
+.desk-draw > div {
+  top: 108px !important;
+  z-index: 1 !important;  
+  height: calc(100vh - 185px);
+  background: linear-gradient(180deg, rgba(255 204 51) 0%, rgba(194, 148, 4, 1) 75%);
+  border-radius: 0 5px 5px 0;
+}
+
+.mob-draw > .css-cyqh1t-MuiPaper-root-MuiDrawer-paper {
+  background: linear-gradient(180deg, rgba(255 204 51) 0%, rgba(194, 148, 4, 1) 75%);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #580000; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #580000; 
+}
+
+.searchForm {
+  position: relative;
+  background: #580000;
+  padding: 10px;
+  z-index: 100;
+  float: left;
+}
+
+.brandBg {
+  background: #580000;
+}
+
+.homeSearchField label {
+  font-size: 12px;
+  color: #000 !important;
+}
+
+.homeSearchField input {
+  background: white !important;
+  border-radius: 5px;
+  padding: 8px !important;
+  font-size: 12px;
+  border: none !important;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.homeSearchBtn {
+  background: green;
+  color: white;
+  border: none !important;
+  padding: 5px !important;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.faList {
+  /* height: calc(100vh - 185px); */
+  float: left;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.faList li > div {
+  padding: 3px 15px !important;
+}
+
+.faList li {
+  transition: all 0.5s ease;
+}
+
+.faList li span {
+  font-weight: 500 !important;
+  color: black !important;
+}
+
+.faList li:hover {
+  background: #580000;
+  transition: all 0.5s ease;
+}
+
+.faList li:hover span {
+  color: white !important;
+}
+
+.faList li.active {
+  background: #580000;
+  transition: all 0.5s ease;
+}
+
+.faList li.active span {
+  color: white !important;
+}
+
+.faList li:last-child {
+  background: green;
+}
+
+.faList li:last-child span {
+  color: white !important;
+}
+
+.hotEachJob {
+  float: left;
+  width: calc(100% - 20px);
+  border: solid 1px #eeeeee;
+  border-radius: 5px;
+  padding: 5px 10px 10px 10px;
+  transition: all 0.5s ease;
+  background: linear-gradient(270deg, #ffffff 50%, #dddddd46 100%);
+  border-left: solid 1px #b90d0d;
+}
+
+.hotEachJob h1 {
+  color: #990505;
+  font-family: "Noto Sans Display", sans-serif !important;
+  font-weight: 600;
+  font-size: 13px;
+  float: left;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.hotEachJob p {
+  color: rgb(77, 77, 77);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hotEachJob:hover {
+  transition: all 0.5s ease;
+  background: #580000;
+}
+
+.hotEachJob:hover h1 {
+  color: white;
+}
+
+.hotEachJob:hover p {
+  color: white;
+}
+
+.hotJobListLoad {
+  height: calc(100vh - 190px);
+  float: left;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-top: 15px;
+}
+
+.hotJobListTtl {
+  float: left;
+  width: calc(100% - 20px);
+  background: linear-gradient(0deg, rgba(115, 1, 1, 1) 0%, rgba(144, 0, 0, 1) 75%);
+  color: white;
+  font-family: "Noto Sans Display", sans-serif !important;
+  padding: 3px 10px 5px 10px;
+  border-radius: 5px 5px 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  color: #FFFFFF;
+}
+
+footer .top {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(#5f5f5f, #000000);
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+footer .bottom {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #d9d9d9;
+  color: #000000;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+footer .top a {
+  width: auto !important;
+  display: inline-flex;
+  font-size: 12px;
+  font-family: "Noto Sans Display", sans-serif !important;
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+  border-left: solid 1px #5f5f5f;
+  padding-left: 10px;
+}
+
+footer .top a:first-child {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .hotJobListLoad {
+    height: calc(100vh - 254px);
+  }
+  footer {
+    position: relative;
+  }
+  footer .top li {
+    line-height: normal;
+    display: contents;
+  }
+}
